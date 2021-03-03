@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QTools</class>
+ <widget class="QMainWindow" name="QTools">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>546</width>
+    <height>620</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>QTools</string>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>32</width>
+    <height>32</height>
+   </size>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="MakeLinkGroup">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>521</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>MakeLink</string>
+    </property>
+    <widget class="QLabel" name="SourcePath_Label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>24</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>SourcePath:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="DestinationPath_Label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>55</y>
+       <width>101</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>DestinationPath:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="SourcePath">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>23</y>
+       <width>391</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="DestinationPath">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>54</y>
+       <width>361</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="SetSourcePath">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>479</x>
+       <y>24</y>
+       <width>37</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="SetDestinationPath">
+     <property name="geometry">
+      <rect>
+       <x>479</x>
+       <y>55</y>
+       <width>37</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="MakeLink">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>80</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Make Link</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="CopyFileGroup">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>141</y>
+      <width>521</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>CopyFiles</string>
+    </property>
+    <widget class="QLabel" name="SourcePath_Label_CopyFile">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>24</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>SourcePath:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="DestinationPath_Label_CopyFile">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>55</y>
+       <width>101</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>DestinationPath:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="SourcePath_CopyFile">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>23</y>
+       <width>391</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="DestinationPath_CopyFile">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>54</y>
+       <width>361</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="SetSourcePath_CopyFile">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>479</x>
+       <y>24</y>
+       <width>37</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="SetDestinationPath_CopyFile">
+     <property name="geometry">
+      <rect>
+       <x>479</x>
+       <y>55</y>
+       <width>37</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="CopyFile">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>80</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Copy</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="BlackJackProjects">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>260</y>
+      <width>521</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>BlackJack Projects</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="ProxyGroup">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>480</y>
+      <width>521</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Proxy</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
